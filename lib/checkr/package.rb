@@ -4,6 +4,7 @@ module Checkr
     attribute :name
     attribute :slug
     attribute :price
+    attribute :drug_screening_price
     attribute :screenings
 
     api_class_method :all, :get, :constructor => APIList.constructor(:Package)
